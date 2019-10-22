@@ -14,7 +14,7 @@ var chairs = [
     name : 'Small Patio Chair',
     legs : 4,
     people : 1,
-    material : 'fabric, yarn, and wood',
+    material : 'fabric, string, and wood',
     size : 'Small',
     reclinable : false,
     photo : 'images/patio.jpg'
@@ -33,7 +33,7 @@ var chairs = [
     legs : 4,
     people : 1,
     material : 'fabric, metal, and plastic',
-    size : 'Large',
+    size : 'Medium',
     reclinable : true,
     photo : 'images/sunLounger.jpg'
   },
@@ -92,48 +92,51 @@ var chairs = [
     photo : 'images/barStool2.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Deck Chair',
+    legs : 4,
+    people : 1,
+    material : 'wood and fabric',
+    size : 'Medium',
+    reclinable : true,
+    photo : 'images/deckChair.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Plastic Outdoor Chair',
+    legs : 4,
+    people : 1,
+    material : 'plastic',
+    size : 'small',
+    reclinable : false,
+    photo : 'images/plastic.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Rocking Chair',
+    legs : 4,
+    people : 1,
+    material : 'wood and leather',
+    size : 'Medium',
+    reclinable : false,
+    photo : 'images/rocking.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Inflatable Pool Chair',
+    legs : 0,
+    people : 1.5,
+    material : 'plastic',
+    size : 'Medium',
+    reclinable : true,
+    photo : 'images/inflatable.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Circle Chair',
+    legs : 4,
+    people : 1.5,
+    material : 'wood, fabric, rope',
+    size : 'Medium',
+    reclinable : false,
+    photo : 'images/circle.jpg'
   },
 ]
+
+
+document.getElementById('img1').innerHTML = '<img>';
