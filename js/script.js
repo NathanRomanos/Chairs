@@ -74,7 +74,7 @@ var chairs = [
     photo : 'images/throne.jpg'
   },
   {
-    name : 'Bar Stool',
+    name : 'Bar Stool One',
     legs : 1,
     people : 1,
     material : 'metal and fabric',
@@ -83,13 +83,13 @@ var chairs = [
     photo : 'images/barStool.jpg'
   },
   {
-    name : ,
-    legs : ,
-    people : ,
-    material : ,
-    size : ,
-    reclinable : ,
-    photo :
+    name : 'Bar Stool Two',
+    legs : 4,
+    people : 1,
+    material : 'wood, fabric, and metal',
+    size : 'small',
+    reclinable : false,
+    photo : 'images/barStool2.jpg'
   },
   {
     name : ,
