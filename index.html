@@ -15,18 +15,36 @@
         background-color: #041F28;
         color: #ED7E28;
       }
+
+      .card{
+        min-height: 650px;
+        margin: 10px;
+        background-color: rgba(225, 225, 225, 0.2);
+      }
+
+      .btn:hover{
+        cursor: pointer;
+      }
+
+      .btn:active{
+        transform: scale(0.95);
+      }
     </style>
 
   </head>
   <body>
     <h1>Chairs</h1>
 
-    <div class="card" style="width: 18rem;">
-      <img id="img1" class="card-img-top" src="" alt="Card image cap">
-      <div class="card-body">
-        <p id="result`1" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
+    <div class="container">
+
+      <div class="btn btn-light btn-lg">Bruh filter</div>
+
+    <div id="cardContainer" class="row">
     </div>
+
+
+
+  </div> <!-- This is where the container ends -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

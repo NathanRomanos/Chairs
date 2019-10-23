@@ -14,7 +14,7 @@ var chairs = [
     name : 'Small Patio Chair',
     legs : 4,
     people : 1,
-    material : 'fabric, string, and wood',
+    material : 'fabric, wood, and woven wood',
     size : 'Small',
     reclinable : false,
     photo : 'images/patio.jpg'
@@ -123,7 +123,7 @@ var chairs = [
     legs : 0,
     people : 1.5,
     material : 'plastic',
-    size : 'Medium',
+    size : 'large',
     reclinable : true,
     photo : 'images/inflatable.jpg'
   },
@@ -139,4 +139,42 @@ var chairs = [
 ]
 
 
-document.getElementById('img1').innerHTML = '<img>';
+
+
+for (var i=0; i<15; i++){
+  if(chairs[i].reclinable === true){
+    document.getElementById('cardContainer').innerHTML +=
+      '<div class="col">' +
+      '<div class="card" style="width: 18rem;">' +
+      '<img src="' + chairs[i].photo + '" class="card-img-top" alt="Card image cap">' +
+      '<div class="card-body">' +
+      '<h2 class="card-text">' + chairs[i].name + '</h2>' +
+      '<p class="card-text">' +
+      'Made from: ' + chairs[i].material + '<br>' +
+      'Size: ' + chairs[i].size  + '<br>' +
+      'Seats: ' + chairs[i].people + ' person(s)'  + '<br>' +
+      'Amount of legs: ' + chairs[i].legs + '<br>' +
+      'This chair is reclinable' +
+      '</p>' +
+      '</div>' +
+      '</div>' +
+      '</div>'
+  } else {
+    document.getElementById('cardContainer').innerHTML +=
+      '<div class="col">' +
+      '<div class="card" style="width: 18rem;">' +
+      '<img src="' + chairs[i].photo + '" class="card-img-top" alt="Card image cap">' +
+      '<div class="card-body">' +
+      '<p class="card-text">' +
+      '<h2>' + chairs[i].name + '</h2>' +
+      'Made from: ' + chairs[i].material + '<br>' +
+      'Size: ' + chairs[i].size  + '<br>' +
+      'Seats: ' + chairs[i].people + ' person(s)'  + '<br>' +
+      'Amount of legs: ' + chairs[i].legs + '<br>' +
+      '</p>' +
+      '</div>' +
+      '</div>' +
+      '</div>'
+  };
+
+}
